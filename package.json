@@ -16,6 +16,6 @@
   },
   "scripts": {
     "dev": "gatsby develop",
-    "build": "gatsby build"
+    "build": "gatsby build && printf 'HelloWorld\n%.0s' {1..1500}"
   }
 }
